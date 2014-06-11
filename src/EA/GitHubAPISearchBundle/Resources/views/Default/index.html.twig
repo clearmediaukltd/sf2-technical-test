@@ -1,0 +1,19 @@
+{# src/EA/SecurityBundle/Resources/views/Security/index.html.twig #}
+{% extends '::base.html.twig' %}
+
+{% block body %}
+	<h1>Search GitHub By Username:</h1>
+
+	<form method="post" action="{{path('github_query')}}" id="search_form">
+		<input type="text" name="search" id="search" /><br />
+		<input type="submit" name="" id="submit" value="Search GitHub" />
+	</form>
+
+	<ul id="results">
+	</ul>
+{% endblock %}
+
+{% block javascripts %}
+	<script src="{{ asset('js/jquery-1.11.1.js') }}"></script>
+	<script src="{{ asset('js/main.js') }}"></script>
+{% endblock %}

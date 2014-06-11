@@ -1,0 +1,7 @@
+_welcome:
+    pattern:  /
+    defaults: { _controller: EAGitHubAPISearchBundle:Default:index }
+
+ea_git_hub_api_search_homepage:
+    pattern:  /search
+    defaults: { _controller: EAGitHubAPISearchBundle:Default:index }

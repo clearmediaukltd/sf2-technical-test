@@ -1,0 +1,6 @@
+# app/config/routing.yml
+login:
+    path:     /login
+    defaults: { _controller: EASecurityBundle:Default:login }
+login_check:
+    path: /login_check

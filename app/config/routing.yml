@@ -1,0 +1,8 @@
+ea_git_hub_api_search:
+    resource: "@EAGitHubAPISearchBundle/Resources/config/routing.yml"
+    prefix:   /
+
+ea_security:
+    resource: "@EASecurityBundle/Resources/config/routing.yml"
+    prefix:   /
+

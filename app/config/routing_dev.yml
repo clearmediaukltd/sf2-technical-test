@@ -16,3 +16,16 @@ _main:
 # AcmeDemoBundle routes (to be removed)
 _acme_demo:
     resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+
+_security:
+    resource: "@EASecurityBundle/Resources/config/routing.yml"
+
+ea_git_hub_api_search:
+    resource: "@EAGitHubAPISearchBundle/Resources/config/routing.yml"
+    prefix:   /
+
+github_query:
+    pattern:  /search/query/{username}
+    defaults: { _controller: EAGitHubAPISearchBundle:Default:search, username: '' }
+    requirements:
+        _method:  GET

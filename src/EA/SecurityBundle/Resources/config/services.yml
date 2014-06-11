@@ -1,0 +1,7 @@
+parameters:
+#    ea_security.example.class: EA\SecurityBundle\Example
+
+services:
+#    ea_security.example:
+#        class: %ea_security.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

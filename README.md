@@ -41,3 +41,11 @@ https://api.github.com/users/USER_NAME/repos
 * Send the link to your forked GitHub project to your recruiter.
 
 *Good luck!**
+
+### Chris Cook's Notes
+
+* The new login process broke the tests in the ACME DemoBundle, so I have fixed them to follow the new login process
+* I used the user authentication system described in the Symfony docs for my login process
+* Because I cannot (should not) test private functions directly, I could only write one unit test for GitHubAPISearchBundle DefaultController. However I have also written a functional test for this class
+* I did not attempt to impliment Angular.js as I have no experience with it. However, I have implimented the alert box with the id and created_at time.
+* Everything else is working.
