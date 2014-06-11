@@ -49,5 +49,4 @@ https://api.github.com/users/USER_NAME/repos
 * Because I cannot (should not) test private functions directly, I could only write one unit test for GitHubAPISearchBundle DefaultController. However I have also written a functional test for this class
 * I did not attempt to impliment Angular.js as I have no experience with it. However, I have implimented the alert box with the id and created_at time.
 * Everything else is working.
-
 * I spent 3.5 hours on the test.
