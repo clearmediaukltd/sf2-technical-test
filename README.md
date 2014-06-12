@@ -50,3 +50,5 @@ https://api.github.com/users/USER_NAME/repos
 * I did not attempt to impliment Angular.js as I have no experience with it. However, I have implimented the alert box with the id and created_at time.
 * Everything else is working.
 * I spent 3.5 hours on the test.
+
+* Please note the site was development in the dev environment. http://localhost/app_dev.php/
